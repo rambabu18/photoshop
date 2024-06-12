@@ -1,0 +1,200 @@
+/* Gallery Title */
+.gallery-row {
+    position: relative;
+    text-align: center;
+    margin-top: 10px !important;
+}
+
+.gallery-col {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+.gallery-col h2 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--color-white);
+    text-transform: capitalize;
+}
+
+.gallery-col-title{
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    width: 300px;
+    padding: 10px;
+}
+
+.gallery-img{
+    width: 20%;
+    padding: 10px;
+}
+
+/* Success Page */
+
+.success_page{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.lottie_img{
+    position: relative;
+    width: 20% !important;
+}
+.success_link{
+    padding: 10px 20px 10px;
+    background-color: var(--color-accent);
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--color-white) !important;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid var(--color-white);
+    box-shadow: 0px 4px 4px rgb(228, 202, 240);
+    border-radius: 10px;
+    margin-top: 20px !important;
+   
+}
+.success_text{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--color-accent);
+}
+
+
+/* Loading */
+
+.loading_page{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading_img{
+    position: relative;
+    width: 10% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+   
+}
+
+/* Navigation */
+
+.nav-logo{
+    position: relative;
+    width: 250px !important;
+    height: 100px !important;
+}
+.dash_nav{
+    position: relative;
+    top: -10px;
+    width: 100%;
+    background-color: var(--color-white) !important;
+    transition: all 150ms linear;
+    -webkit-box-shadow: 0px 0px 30px 5px rgb(0 0 0 / 16%) !important;
+    -moz-box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.16) !important;
+    box-shadow: 0px 0px 30px 5px rgb(0 0 0 / 16%) !important;
+}
+.footer_nav{
+    position: relative;
+    width: 100%;
+    background-color: var(--color-white) !important;
+    transition: all 150ms linear;
+    -webkit-box-shadow: 0px 0px 30px 5px rgb(0 0 0 / 16%) !important;
+    -moz-box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.16) !important;
+    box-shadow: 0px 0px 30px 5px rgb(0 0 0 / 16%) !important;
+}
+/* Dashboard */
+
+.dashborad-container{
+    width: 100%;
+    height: 100vh;
+}
+
+.nodata-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.nodata-col-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    padding: 20px;
+    align-items: center;
+    background-color: var(--color-white) !important;
+    transition: all 150ms linear;
+    -webkit-box-shadow: 0px 0px 30px 5px rgb(0 0 0 / 16%) !important;
+    -moz-box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.16) !important;
+    box-shadow: 0px 0px 30px 5px rgb(0 0 0 / 16%) !important;
+    border-radius: 20px;
+}
+
+.nodata-col-one h6{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nodata-col-one span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.add-btn{
+    width: 150px;
+    font-size: large;
+    font-weight: 600;
+    border: 1px solid rgb(41, 41, 185);
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.user-logo{
+    width: 50px;
+}
+
+/* Custom Form */
+
+.custom-form-col{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.customer-form-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-image{
+   display: flex;
+   flex-direction: column;
+}

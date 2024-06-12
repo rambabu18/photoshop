@@ -1,0 +1,90 @@
+.login_container{
+   background-image: url('../images//home/bg.jpg');
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100vh;
+   min-height: fit-content;
+   max-height: fit-content;
+ }
+ .login_col{
+     display: flex;
+     /* flex-direction: column; */
+     justify-content: center !important;
+     align-items: center !important;
+ }
+ .login_title{
+     font-size: 24px;
+     font-weight: 800;
+     color: #FF7F50;
+     letter-spacing: 0.5px;
+     line-height: 30px;
+ }
+ .forgot_pass{
+     margin-top: 10px !important;
+     margin-bottom: 10px !important;
+   }
+ 
+   .contact-form{
+     border-radius: 20px;
+   }
+   .contact-form-col{
+    position: relative;
+    background: #ffffff;
+    overflow: hidden;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 43px 0px rgb(131 131 131 / 23%);
+  }
+ 
+   .forgot_link{
+     text-decoration: none;
+     font-weight: 700;
+     color: #000;
+     letter-spacing: 0.5px;
+     font-size: 14px;
+   }
+   .login_error{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 14px;
+     border: 1px solid tomato;
+     color: hsl(0, 94%, 48%);
+     font-weight: 800;
+   }
+
+   .login-btn{
+    padding: 10px 35px 10px !important;
+    background-color: var(--color-primary);
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: var(--color-white) !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    border: 1px solid var(--color-white) !important;
+    box-shadow: 0px 4px 4px rgb(228, 202, 240) !important;
+    border-radius: 10px !important;
+    /* margin-top: 20px; */
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  
+  .login-btn:hover{
+    background-color: var(--color-primary);
+  }
+
+  .no-account{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: cursive;
+  }
+
+  .signup_link{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    font-family:cursive;
+  }
+ 

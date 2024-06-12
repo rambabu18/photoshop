@@ -1,0 +1,10 @@
+/*
+ Photoshop 
+ Version 1.0
+
+ *****CSS File******
+*/
+
+@import url(bootstrap/dist/css/bootstrap.min.css);
+@import url('./home.css');
+@import url('./login.css');
