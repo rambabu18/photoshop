@@ -14,7 +14,7 @@ import SignUp from "./pages/SignUp";
 import SuccessPage from "./components/SuccessPage";
 
 function App() {
-  axios.defaults.baseURL = `http://localhost:5002/api/`;
+  axios.defaults.baseURL = `https://photoshopbackend.onrender.com/api/`;
   let AUTH_TOKEN = localStorage.getItem("token");
   axios.defaults.headers.common["Authorization"] = "Bearer " + AUTH_TOKEN;
   axios.defaults.headers.post['Content-Type'] = 'application/json';
